@@ -1,2 +1,2 @@
 #!/bin/bash
-CURRENT_USER=$(whoami) echo "Effective username:$CURRENt_user"
+CURRENT_USER=($whoami)  echo "Effective username:$CURRENT_USER"
