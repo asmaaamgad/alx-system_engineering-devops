@@ -1,0 +1,2 @@
+#!/bin/bash
+FILE_NAME="hello"sudo chmod 601 "$FILE_NAME"  echo "Permissions set for the file '$FILE_NAME': Owner: no permission at all Group: no permission "
