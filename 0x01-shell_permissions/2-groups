@@ -1,0 +1,2 @@
+#!/bin/bash
+all_the_groups=$groups echo "all the groups of the user:${all_the_groups}"
