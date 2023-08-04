@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "Enter the file name: " input if [ ! -f "$input" ]  then  echo "File '$input' does not exist." exit 1 fi chmod a+x "$input"
+read -p "Enter the file name: " input  chmod a+x "$input"  echo "Execute permission added to the owner, group owner, and other users for the file '$input'."
