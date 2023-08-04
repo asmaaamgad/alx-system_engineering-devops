@@ -1,2 +1,2 @@
 #!/bin/bash
-FILE_NAME="hello"; sudo chmod 753 "$FILE_NAME" && ls -l "$FILE_NAME"
+FILE_NAME="hello" sudo chmod 753 "$FILE_NAME"  ls -l "$FILE_NAME"
