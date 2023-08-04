@@ -1,5 +1,2 @@
 #!/bin/bash
-NEW_OWNER="betty"
-FILE_NAME="hello"
-chown "$NEW_OWNER" "$FILE_NAME"
-echo "File ownership changed successfully to $NEW_OWNER."
+NEW_OWNER="betty" FILE_NAME="hello" chown "$NEW_OWNER" "$FILE_NAME" echo "File ownership changed successfully to $NEW_OWNER."
