@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 current_dir= $(pwd)  print "Absolute path of the current working directory": ${current_dir}
+=======
+current_dir= $(pwd) , print "Absolute path of the current working directory": ${current_dir}
+>>>>>>> c6a2cee74fc5ebc6a4052363b32019f8292ed01a

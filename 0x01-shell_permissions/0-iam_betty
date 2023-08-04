@@ -1,0 +1,2 @@
+#!/bin/bash
+swisch_user=$(su) print ${su} 
