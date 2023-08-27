@@ -1,0 +1,17 @@
+#!/bin/bash
+
+current_dir=$(pwd)
+parent_dir=$(dirname "$current_dir")
+
+for file in *.html; do
+    if [ -f "$parent_dir/$file" ]; then
+        current_mtime=$(stat -c %Y "$file")
+        parent_mtime=$(stat -c %Y "$parent_dir/$file")
+        
+        if [ "$current_mtime" -gt "$parent_mtime" ]; then
+            cp "$file" "$parent_dir"
+        fi
+    else
+        cp "$file" "$parent_dir"
+    fi
+done
