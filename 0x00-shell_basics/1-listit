@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Content of the current directory":$(ls)
+ls
