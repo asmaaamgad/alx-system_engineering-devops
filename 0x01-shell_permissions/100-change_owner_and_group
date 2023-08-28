@@ -1,0 +1,3 @@
+#!/bin/bash
+chown -R vincent:staff *
+echo "Owner and group changed for all files and directories."
